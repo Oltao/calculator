@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by Oltao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly></input>
+            <button onclick="clearDisplay()" class="operands two-col">AC</button>
+            <button onclick="deleteOperand()" class="operands">DEL</button>
+            <button onclick="calculatoOperation('/')" class="operands">/</button>
+            <button onclick="calculatoOperation('7')">7</button>
+            <button onclick="calculatoOperation('8')">8</button>
+            <button onclick="calculatoOperation('9')">9</button>
+            <button onclick="calculatoOperation('*')" class="operands">x</button>
+            <button onclick="calculatoOperation('4')">4</button>
+            <button onclick="calculatoOperation('5')">5</button>
+            <button onclick="calculatoOperation('6')">6</button>
+            <button onclick="calculatoOperation('-')" class="operands">-</button>
+            <button onclick="calculatoOperation('1')">1</button>
+            <button onclick="calculatoOperation('2')">2</button>
+            <button onclick="calculatoOperation('3')">3</button>
+            <button onclick="equalTo()" class="two-row">=</button>
+            <button onclick="calculatoOperation('0')">0</button>
+            <button onclick="calculatoOperation('.')">.</button>
+            <button onclick="calculatoOperation('+')" class="operands">+</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
